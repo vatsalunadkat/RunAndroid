@@ -1,0 +1,126 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[a4paper, total={6.8in, 9in}]{geometry}
+\usepackage{lscape} 
+\usepackage[latin1]{inputenc}
+\usepackage{palatino}
+\usepackage{color}
+\usepackage{lipsum}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\addbibresource{sample.bib}
+
+%% a point to check
+\definecolor{checkcolor}{rgb}{0.75, 0.75, 0.75}
+\newsavebox{\definitionbox}
+\newenvironment{checkit}{%
+\begin{lrbox}{\definitionbox}
+\begin{minipage}[t]{0.95\textwidth}%
+}%
+{\end{minipage}
+\end{lrbox}%
+\begin{center}{\colorbox{checkcolor}{\usebox{\definitionbox}}}%
+\end{center}}
+
+\title{Software Engineering \\ Timeline and Process Model \\ Run (Android Application)}
+\author{Dhruv Kudale and Vatsal Unadkat}
+\date{March 2019}
+
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The Run android application would be to help runners to look forward to start running whether it is their first time or trying to develop/maintain it as a habit. It also focuses to keep them engaged and focus on improving their pace time. The application will benefit runners and lazy runners in improving their pace. The application will adjust the music according to the BPM value of the runner. The application will enhance everyday running activity and also give an enhanced running experience. This will in turn motivate reluctant runners to run and have a better performance.\\ The purpose of this document is to provide a detailed overview of the time line of project completion and further has a comparative analysis of process models considering our android application Run, its objectives, goals and methodology with the aid of research paper analysis.The document concludes with the process model chosen for further implementation.
+
+\section{Time-Line}
+Following table shows the amount of work done, modules implemented, research performed and gives an idea of further implementation
+\begin{center}
+\bigbreak
+\begin{tabular}{ | m{0.5cm} | m{3.5cm}| m{2cm} | m{9cm}|}
+\hline
+\hline
+No. & Dates (in 2019)& Duration & Work done\\
+\hline
+\hline 
+1 & 10th Jan to 23rd Jan & 14 days & Initial planning, ideas, study of phases and refining of requirements and providing clarity in aim of the product\\
+\hline
+2 & 22nd Jan to 20th Feb & 30 days & Carrying out the literature review of 14 research papers and identifying research gaps\\
+\hline
+3 & 21st Feb to 28th Feb & 8 days & Preparing the Synopsis, data flow diagram and setting up of objectives\\
+\hline
+4 & 1st Mar & 1 day & Synopsis Presentation\\
+\hline
+5 & 2nd Mar to 8th Mar & 7 days & preparation of time-line, further planning and choice of best suited process model\\
+\hline
+6 & 9th Mar to 27th Mar & 19 days & Starting implementation, general planning and setting up the pedometer\\
+\hline
+7 & 28th Mar to 6th Apr & 10 days & Handling of music files, user interface enhancement of the music player\\
+\hline
+8 & 7th Apr to 24th Apr & 18 days & Implementation 'music prediction' \\
+\hline
+9 & 25th Apr to 6th May & 12 days & Testing of the product, including usage, music prediction and consistency\\
+\hline
+10 & 7th May to 10th May & 4 days & Deployment of the product\\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+\section{Process Model}
+Following table shows the comparative analysis of various process models against the features and stages of the project. The stages of project include: Communication, Planning, Implementation, Testing and Deployment The features show the general concept of each model that can be applied in our project. The further column shows the consequent reasons for acceptance or rejections for being the best suited model for our project  
+
+\begin{center}
+\bigbreak
+\begin{tabular}{ | m{0.5cm} | m{2.5cm}| m{5cm} | m{7cm}|}
+\hline
+\hline
+No. & Name & Features & Accepted/Rejected\\
+\hline
+\hline 
+1 & Waterfall Model & It is a very simple model where all the phases are traversed sequentially one by one. Only one phase is dealt at one time. & The project needs simultaneous implementation and testing for music prediction. However we can't move back a phase in this model.\\
+\hline
+2 & V Model & Verification and Validation takes place simultaneously before and after implementation (like a 'V') respectively. & A working model is produced only at the end, which does not allow to carry out revised implementation following the tests taken after one music recommendation approach that needs improvement \\
+\hline
+3 & Incremental Model & Development occurs as a succession of relaeses wherein each linear order iteration produces an updated product & This model is beneficial for the project as it involves repeated traversal through states after each iteration considering customer feedbacks for music prediction. This approach can be used to make the product recommendation system better.\\
+\hline
+4 & Evolutionary Process Models (Prototyping and Spiral) & It is a combination of iterative and incremental approach to software development. A prototype or hybrid model is used to take into account changing requirements & Though music prediction is relative, the requirements of this project are not changing to such a extent for which these models become unnecessarily complicated. This model is very time consuming hence not very well suited.\\
+\hline
+5 & Concurrent Models  & As the name suggests, the approach is to concurrently develop one or more phases for faster development. The concurrent model is often more appropriate for system engineering projects where different engineering teams are involved & Considering a very small team size and high cost(which can be optimized by more suitable model), this model is not suitable for our project. \\
+\hline
+6 & Specialized Process Model (Component based, Formal methods, Aspect oriented) & Approach can be either component integration or encompasses a set of activities that leads to formal mathematical specifications  
+ & Software architecture is designed to accommodate the components and high level testing is conducted. However the objective of the project is considerably simpler than the capability of these models as extensive training is required and it is difficult to use these models, hence not suitable to use them.
+\\
+\hline
+\hline
+\end{tabular}
+\end{center}
+
+\section{Conclusion}
+After the comparative analysis, it is seen that Incremental model is best suited for the project. The requirements of pedometer and music prediction are understood clearly. The time duration for development and deployment is less, considered optimal in incremental model.Initial product delivery is faster and it reaches the users early, their feedback with respect to music recommendation can be taken and functionality can be improved in every iteration.The requirement is quite clearly known and is expected to evolve over time.Hence incremental model is chosen.
+
+\begin{thebibliography}{9} 
+
+\bibitem{} Software Process Model \\\texttt{https://www.slideshare.net/AtulKarmyal/software-process-models-29514469
+}
+
+\bibitem{} Waterfall Model \\\texttt{https://www.toolsqa.com/software-testing/waterfall-model/}
+
+\bibitem{}Incremental Model \\\texttt{https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html}
+
+\bibitem{} Incremental Model Features \\\texttt{https://www.sciencedirect.com/science/article/pii/S0925231218302431}
+
+\bibitem{}Evolutionary Process Models
+\\\texttt{https://www.careerride.com/testing-evolutionary-model.aspx}
+
+\bibitem{} Specialized Process Models
+\\\texttt{http://sarita-itsmyway.blogspot.com/} 
+
+\end{thebibliography}
+
+\printbibliography
+
+\end{document}

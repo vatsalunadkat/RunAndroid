@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e3fbb666aec16007c3adcc035e6f1af2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8077550680a314e57ec7425bd47f200b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\350fb2aa1bcc1b4806579ffd5b5be7ad\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\57a8edf0e05dae1d850ab89f28da45f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\705872d2c36086aa8b42b60a24432f45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\30cf350803b1f5bf6bb2d53d06835b02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6928bd17c1f5dcddea59c07e087fe1c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\345228fa6e32fcb6466038c3c1edbe06\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\717ef2ffd70693cd176599f2315654ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\7951b624147f80cee94ff5a1a866b2c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9805e1db112fec1a58fbfc29a6d95f0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\96d79d2b150e28b28de302aec805249b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\dae72608de5a0b24df4ddde05109d160\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\96dad1a46b4e81096f4446fd12cddb2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f7be92465787afda087536d806ab1153\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c5dea9b841a4b6d15c9be3bd74a5b438\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3274dcdd3e39d7753c89045e2bcf8363\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9719c30697f120ad21aace793c473ba3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c8f1967ee7a5fd3127320f202f33af64\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34052b4c4db12b1968288a0af8ab9247\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\13d006d50cfbde2eccfdfceb866a3213\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\57dd7518e0379185c9f83c1a18d9a375\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\673f4a6527281af9dd5ea27a33ca3673\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\925b6bbc1d217c474cd3c25664757dd0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c7cc2f229bebc693f61434405397845c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\31332bae30232817eaddeffe1d185c93\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d05d3684bb45408d8f8c29053452416c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\219ab9591cb52af7116e08ff993ae3ef\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\634469b42dd6913172a2f3c07e8c8b92\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\dc6343be4e05c1de2b0eeecb5781c6ab\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e0fe093201efaaaa911d8027f79fd7e0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e3fbb666aec16007c3adcc035e6f1af2\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e3fbb666aec16007c3adcc035e6f1af2\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\350fb2aa1bcc1b4806579ffd5b5be7ad\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\350fb2aa1bcc1b4806579ffd5b5be7ad\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c8f1967ee7a5fd3127320f202f33af64\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c8f1967ee7a5fd3127320f202f33af64\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34052b4c4db12b1968288a0af8ab9247\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34052b4c4db12b1968288a0af8ab9247\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c8f1967ee7a5fd3127320f202f33af64\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:9:9-41
+	tools:ignore
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:13:9-48
+	android:roundIcon
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.musicxplore.MainActivity
+ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:label
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:21:27-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml:26:22-77
+uses-sdk
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e3fbb666aec16007c3adcc035e6f1af2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e3fbb666aec16007c3adcc035e6f1af2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8077550680a314e57ec7425bd47f200b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8077550680a314e57ec7425bd47f200b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\350fb2aa1bcc1b4806579ffd5b5be7ad\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\350fb2aa1bcc1b4806579ffd5b5be7ad\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\57a8edf0e05dae1d850ab89f28da45f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\57a8edf0e05dae1d850ab89f28da45f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\705872d2c36086aa8b42b60a24432f45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\705872d2c36086aa8b42b60a24432f45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\30cf350803b1f5bf6bb2d53d06835b02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\30cf350803b1f5bf6bb2d53d06835b02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6928bd17c1f5dcddea59c07e087fe1c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6928bd17c1f5dcddea59c07e087fe1c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\345228fa6e32fcb6466038c3c1edbe06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\345228fa6e32fcb6466038c3c1edbe06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\717ef2ffd70693cd176599f2315654ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\717ef2ffd70693cd176599f2315654ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\7951b624147f80cee94ff5a1a866b2c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\7951b624147f80cee94ff5a1a866b2c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9805e1db112fec1a58fbfc29a6d95f0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9805e1db112fec1a58fbfc29a6d95f0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\96d79d2b150e28b28de302aec805249b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\96d79d2b150e28b28de302aec805249b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\dae72608de5a0b24df4ddde05109d160\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\dae72608de5a0b24df4ddde05109d160\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\96dad1a46b4e81096f4446fd12cddb2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\96dad1a46b4e81096f4446fd12cddb2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f7be92465787afda087536d806ab1153\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f7be92465787afda087536d806ab1153\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c5dea9b841a4b6d15c9be3bd74a5b438\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c5dea9b841a4b6d15c9be3bd74a5b438\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3274dcdd3e39d7753c89045e2bcf8363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3274dcdd3e39d7753c89045e2bcf8363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9719c30697f120ad21aace793c473ba3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9719c30697f120ad21aace793c473ba3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c8f1967ee7a5fd3127320f202f33af64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c8f1967ee7a5fd3127320f202f33af64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34052b4c4db12b1968288a0af8ab9247\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\34052b4c4db12b1968288a0af8ab9247\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\13d006d50cfbde2eccfdfceb866a3213\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\13d006d50cfbde2eccfdfceb866a3213\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\57dd7518e0379185c9f83c1a18d9a375\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\57dd7518e0379185c9f83c1a18d9a375\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\673f4a6527281af9dd5ea27a33ca3673\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\673f4a6527281af9dd5ea27a33ca3673\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\925b6bbc1d217c474cd3c25664757dd0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\925b6bbc1d217c474cd3c25664757dd0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c7cc2f229bebc693f61434405397845c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c7cc2f229bebc693f61434405397845c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\31332bae30232817eaddeffe1d185c93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\31332bae30232817eaddeffe1d185c93\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d05d3684bb45408d8f8c29053452416c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d05d3684bb45408d8f8c29053452416c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\219ab9591cb52af7116e08ff993ae3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\219ab9591cb52af7116e08ff993ae3ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\634469b42dd6913172a2f3c07e8c8b92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\634469b42dd6913172a2f3c07e8c8b92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\dc6343be4e05c1de2b0eeecb5781c6ab\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\dc6343be4e05c1de2b0eeecb5781c6ab\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e0fe093201efaaaa911d8027f79fd7e0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Dhruv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e0fe093201efaaaa911d8027f79fd7e0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dhruv\AndroidStudioProjects\MusicXplore\app\src\main\AndroidManifest.xml

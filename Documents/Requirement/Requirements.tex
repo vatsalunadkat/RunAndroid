@@ -1,0 +1,82 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[a4paper, total={7in, 10in}]{geometry} 
+\usepackage[latin1]{inputenc}
+\usepackage{palatino}
+\usepackage{color}
+\usepackage{lipsum}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\addbibresource{sample.bib}
+
+%% a point to check
+\definecolor{checkcolor}{rgb}{0.75, 0.75, 0.75}
+\newsavebox{\definitionbox}
+\newenvironment{checkit}{%
+\begin{lrbox}{\definitionbox}
+\begin{minipage}[t]{0.95\textwidth}%
+}%
+{\end{minipage}
+\end{lrbox}%
+\begin{center}{\colorbox{checkcolor}{\usebox{\definitionbox}}}%
+\end{center}}
+
+\title{SE Project \\ Requirement Engineering}
+\author{Vatsal Unadkat and Dhruv Kudale}
+\date{March 2019}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The purpose of this document is to provide a detailed overview of our android application Run!, its parameters and goals. This document describes the project's user interface, hardware and software requirements. It defines how our client, team and audience see the product and its functionality. It will explain the purpose and features of the application, the interfaces of the application, and what are the application requirements.
+\end{abstract}
+
+\section*{Inception}
+Running is a very common sport among millions of people. It's an effective form of exercise but due to the lack of motivation a lot of people struggle to start running. 
+Thereby the purpose of the android application would be to help them to look forward to start running whether it is their first time or trying to develop/maintain it as a habit. It also focuses to keep them engaged and focus on improving their pace time.
+The application will benefit runners and lazy runners in improving their pace.The application will provide motivation by
+adjusting the music according to the BPM value of the runner.
+The application will enhance everyday running activity and also give an enhanced running experience.This will in turn motivate reluctant runners to run and have a better performance.
+
+
+\section*{Elicitation}
+The application will be having main functionalities and objectives of a reliable pedometer and music recommendation. The application will enhance everyday running activity and also give an enhanced running experience. This will in turn motivate reluctant runners to run and have a better performance.The feature of music suggestion will automatically select the next segment based on predicting the steps per minute for the upcoming segment/s. It is recommended that the user will choose this selected play list. It can be incorporated with the audio cues that are given periodically.The track/s will be played between two audio cues.The assumption can be made that exercising to fast tempo music or that appropriately suggested music should produce faster running performance.The pedometer is to be made reliable in a way that it displays relevant, tactful and accurate pace reading and other statistics that will broadly enhance the mind of the runner during the run. Thus the main requirements are discovered and are compiled in this phase.
+
+
+\section*{Elaboration}
+The music recommendation system and the reliable pedometer are one of the major highlights of this project.
+The use case diagram shows a schematic analysis of the application with the user or runner point of view. The user can select his/her own play list while running however automatically selected music is recommended.T his feature will adjust the music according to the SPM value of the runner. The music selected will be based upon the choice having appropriate rhythm and that can tune in with the steps of the runner. In some cases, the music played will have slightly faster BPM in order to motivate the runner to speed up and thereby improving the pace of the runner. User will start running and during various phases of running the music recommendation system will suggest suitable track of dynamic duration based on the required value of the runner. For
+acheiving this, (although not a compulsory requirement) a database of the past runs with split timings per kilometre
+could help the application for its music predictions. The personal play-list of the user would also be of good
+help which can be added to the music database.
+The pedometer will keep into account the required statistical information pertaining to the phase, real time improvement
+and changes occurring in the pace, target speed analysis,etc. Thus in the above mentioned manner, user can satisfactorily analyse the personal results, goal settings, etc and thereby improve the performance.
+
+\section*{Negotiation}
+Apart from the consistent requirements, other requirements have to be taken care of. Some alterations of few requirements have to carried out due to time constraints or resources unavailability or it can be very complicated to implement. Hence audio cues are ruled out of the requirements considering the variable nature of humans as they react very differently to audio that they listen which depends on many factors. These factors include the tone of the voice, psychological state of listeners, intention of listening, etc. Also the consideration of real time for music prediction like for festivals and important dates can be hard as they vary with geographical regions. Hence only few particular and common dates will be considered in our project. This feature can also be seen as future scope.     
+
+\section*{Specification}
+Hardware and Software requirements \\
+Operating system : Android 4.4.2, or Android 4.4.4\\
+Processor : Intel Atom® Processor Z2520 1.2 GHz or faster\\
+Storage : Between 850 MB and 1.2 GB (depending on the language )\\
+RAM : Minimum of 512 MB, 1 GB is recommended\\
+Video : 1280 x 800 pixels or higher on a 10-inch device\\
+Audio :  Working audio jack or bluetooth compatible earphones\\
+General Sensors for Pedometer \\
+Performance Requirements: \\
+The UI needs to be as simple as possible. Not too much clutter with large font as the user may want to change settings or his music while on the run. When a run is on going the screen need to have high contrast display and a few basic settings so as to conserve battery life while still providing the user options as per his/her convenience.\\ \\
+Safety Requirements \\
+The user expressly agrees that his/her athletic activities (including, but not limited to, walking, running, or following a plan offered by the application) carry certain inherent and significant risks of property damage, bodily injury or death. The user also must agree that he/she voluntarily assumes all known and unknown risks associated with these activities even if caused in whole or part by the action, inaction or negligence of the application or by the action, inaction or negligence of others.\\ \\
+Other Requirements: \\
+Although not a compulsory requirement, a database of the past runs with split timings per kilometre could help the application for the music predictions. The personal play list of the user would also be of good help.\\ 
+
+\section*{Validation and Management}
+The Pedometer and Music Prediction are one of the main requirements. Apart from the performance and safety requirements mentioned above there needs to be testing and validation of pedometer working and music prediction. While there is no one perfect way to check the accuracy of prediction of music, so surveys designed in a customized manner can help for testing and validation. In this project, the aim is to manage and develop an application that will motivate the runners to perform better. Android platform is used to implement this application. Every person nowadays has android cell phone hence the reason. The application aims to induce some beneficial physical activity motivation(here, running) accompanied with valid music suggestions and help in the expanding sedentary life of young people. 
+
+
+\end{document}
