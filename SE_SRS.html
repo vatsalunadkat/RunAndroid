@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SRS_RUN</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+  <style>
+    /* Customization of standard HTML styles */
+    p {
+      margin-top: 0em;
+      margin-bottom: 0.5em;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0em;
+      margin-bottom: 0.25em;
+    }
+    table {
+      border-spacing: 1em;
+    }
+    th, td {
+      text-align: left;
+    }
+
+    /* Customization of ReqView styles */
+    #heading {
+      margin: 1em;
+      margin-top: 2em;
+    }
+    #filter {
+      text-align: right;
+      margin: 1em;
+    }
+    #reqviewTable {
+      margin: 1em;
+    }
+    #reqviewTable h1 {
+      font-size: 30px;
+    }
+    #reqviewTable h2 {
+      font-size: 24px;
+    }
+    #reqviewTable h3 {
+      font-size: 20px;
+    }
+    #reqviewTable h4 {
+      font-size: 18px;
+    }
+    #reqviewTable h5 {
+      font-size: 16px;
+    }
+    #reqviewTable h6 {
+      font-size: 14px;
+    }
+    /* Customization of our styles */
+    .id-col {
+      min-width: 5em;
+      width: 10%;
+      vertical-align: top;
+    }
+    .description-col {
+      min-width: 30em;
+      width: 60%;
+      vertical-align: top;
+    }
+    .discussion-col {
+      min-width: 15em;
+      width: 20%;
+      vertical-align: top;
+    }
+    .links-col {
+      min-width: 15em;
+      width: 20%;
+      vertical-align: top;
+    }
+    .attributes-col {
+      min-width: 15em;
+      width: 30%;
+      vertical-align: top;
+    }
+    .attributes-col ul {
+      padding-left: 0px;
+    }
+    .attributes-col li {
+      list-style: none outside none;
+    }
+    .attributes-col .attribute-name {
+      font-style: italic;
+    }
+    .custom-col {
+      min-width: 10em;
+      width: 10%;
+      vertical-align: top;
+    }
+    .comment {
+      font-size: 0.9em;
+    }
+    .comment-text {
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+    .attachment {
+      font-style: italic;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .links-type-name {
+      font-style: italic;
+    }
+    .link {
+      margin-left: 8px;
+      font-size: 0.9em;
+    }
+    td.attributes-col div.htmlContent,
+    td.custom-col div.htmlContent {
+      min-width: 15em;
+    }
+    .deleted {
+      color: #666;
+    }
+    .deleted .id-col,
+    .deleted .description-col,
+    .link.deleted {
+      text-decoration: line-through;
+    }
+    .deleted a {
+      color: gray;
+    }
+    .htmlContent table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: auto;
+    }
+    .htmlContent th, .htmlContent td {
+      border: 1px solid #b5bcc7;
+      vertical-align: top;
+      padding: 3px 7px 2px 7px;
+    }
+    .htmlContent th {
+      padding-top: 5px;
+      padding-bottom: 4px;
+      background: silver;
+    }
+  </style>
+</head>
+<body>
+  <div id="heading">
+    <h1>SRS_RUN</h1>
+  </div>
+  <div id="reqviewTable">
+    <table id="reqsTable" class="table">
+      <!-- Heading of the requirements table -->
+      <thead>
+        <tr>
+          <th class="id-col"><i class="icon-asterisk"></i> ID</th>
+          <th class="description-col"><i class="icon-align-left"></i> Description</th>
+          <th class="discussion-col"><i class="icon-comments"></i> Discussion</th>
+          <th class="links-col"><i class="icon-link"></i> Links</th>
+        </tr>
+      </thead>
+
+      <!-- Requirements table with list of requirements -->
+      <tbody>
+        <tr>
+          <td class="id-col"><a id="2"></a>SE_SRS-2</td>
+          <td class="description-col" style="padding-left:10px">
+            <h1>1 Introduction</h1>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="3"></a>SE_SRS-3</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>1.1 Purpose</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="4"></a>SE_SRS-4</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>Running is a very common sport among millions of people. It's an effective form of exercise but due to the lack of motivation a lot of people struggle to start running.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="5"></a>SE_SRS-5</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>Thereby the purpose of the android application would be to help them to look forward to start running whether it is their first time or trying to develop/maintain it as a habit. It also focuses to keep them engaged and focus on improving their pace time.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="6"></a>SE_SRS-6</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The purpose of this SRS document is to provide a detailed overview of our android application – “Run!”, its parameters and goals. This document describes the project's target audience and its user interface, hardware and software requirements. It defines how our client, team and audience see the product and its functionality. It will explain the purpose and features of the application, the interfaces of the application, and what the application will do. This document is intended for both the stakeholders and the developers of the system and will be proposed as the Software Engineering Project (SE).</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="7"></a>SE_SRS-7</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>1.2 Document Conventions</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="8"></a>SE_SRS-8</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><table class=" cke_show_border"><tbody><tr><td style="width:144.9pt"><p><strong>Term</strong></p></td><td style="width:298.4pt"><p><strong>Definition</strong></p></td></tr><tr><td style="width:144.9pt"><p>Database</p></td><td style="width:298.4pt"><p>Collection of all the information monitored by this system.</p></td></tr><tr><td style="width:144.9pt"><p>FAQ</p></td><td style="width:298.4pt"><p>Frequently Asked Questions</p></td></tr><tr><td style="width:144.9pt"><p>Member</p></td><td style="width:298.4pt"><p>A member of the Historical Society listed in the HS database.</p></td></tr><tr><td style="width:144.9pt"><p>Software Requirements Specification (SRS)</p></td><td style="width:298.4pt"><p>A document that completely describes all of the functions of a proposed system and the constraints under which it must operate. For example, this document.</p></td></tr><tr><td style="width:144.9pt"><p>Stakeholder</p></td><td style="width:298.4pt"><p>Any person with an interest in the project who is not a developer.</p></td></tr><tr><td style="width:144.9pt"><p>User(Runner)</p></td><td style="width:298.4pt"><p>Any person who uses the application.</p></td></tr></tbody></table></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="9"></a>SE_SRS-9</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>1.3 Intended Audience and Reading Suggestions</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="10"></a>SE_SRS-10</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The document is written with an intention to understand the requirements and structural components of the application. Readers will be able to understand the purpose of the application and the entire running community will benefit by its usage.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="11"></a>SE_SRS-11</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>1.4 Product Scope</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="12"></a>SE_SRS-12</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The application will benefit runners and lazy runners in improving their pace.The application will provide motivation in the following manner:</p><ol><li>It will adjust the music according to the BPM value of the runner.</li><li>It will provide paths and directions to the runner.</li><li>It will give audio cues in order to keep the runner engaged.</li></ol></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="13"></a>SE_SRS-13</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The application will enhance everyday running activity and also give an enhanced running experience.This will in turn motivate reluctant runners to run and have a better performance.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="14"></a>SE_SRS-14</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>1.5 References</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="86"></a>SE_SRS-86</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>This document is made to understand the requirements of the Run! Application is an android application.This document is made by referring the guidelines and template of IEEE Guide to Software Requirement Specifications Std 830. The visionary reference is made through Strava, also an Android Application.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="15"></a>SE_SRS-15</td>
+          <td class="description-col" style="padding-left:10px">
+            <h1>2 Overall Description</h1>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="16"></a>SE_SRS-16</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>2.1 Product Perspective</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="17"></a>SE_SRS-17</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>Replacement for an existing system where it combines two existing application</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="18"></a>SE_SRS-18</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>Figure to show pp</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="19"></a>SE_SRS-19</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>2.2 Product Functions</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="20"></a>SE_SRS-20</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The application will be having the following functionalities: The application will enhance everyday running activity and also give an enhanced running experience. This will in turn motivate reluctant runners to run and have a better performance.</p><p>​​​​​​</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="21"></a>SE_SRS-21</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>Audio Cues:</strong></p><p>It will give audio cues in order to keep the runner engaged. Audio will have content related to persuade to keep running.These scenarios will be based on short storylines (Five to six runs) that would range from calm and peaceful nature trails/hikes all the way to dangerous and adventurous scenarios like zombie apocalypse or chasing sequences.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="22"></a>SE_SRS-22</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>Directions:</strong></p><p>It will provide paths and directions to the runner. The runner will be given choice to make and choose his/her own route or a route will provided containing no dead ends or side roads.It will be linked to the audio cues.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="23"></a>SE_SRS-23</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>Music Suggestion:</strong></p><p>The user can select his/her own playlist while running however automatically selected music is recommended.This feature will adjust the music according to the SPM value of the runner.The music selected will be based upon listener’s choice having appropriate rhythm and that can tune in with the steps of the runner.In some cases, the music played will have slightly faster BPM in order to motivate the runner to speed up and thereby improving the pace of the runner.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="24"></a>SE_SRS-24</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>2.3 User Classes and Characteristics</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="25"></a>SE_SRS-25</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>There are various reports showing lack of physical activity&nbsp;amongst young people in Pune(Or in India Generally), this is of concern not only for their current physical and cognitive&nbsp;ability, but has repercussions for health in adult life. Research&nbsp;demonstrates that young people with low cardiovascular fitness have an increased risk of diseases in adult life. Conversely, the beneficial effects of weight bearing exercise in early age has been shown to enhance health.The application is going to provide audio cues, give directions and also play most liked music considering the needs of today’s young people (Targeted Age Group: 16 to 30, preferably college students who are taken aback by their busy academic schedule and eliminate physical activities from their routine)Running is the most basic form physical exercises hence the reason of choice.A balanced approach to health and fitness should be promoted, with young people encouraged to take part in a range of sport activities.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="26"></a>SE_SRS-26</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>2.4 Operating Environment</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="27"></a>SE_SRS-27</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The application would be compatible on Android Operating Systems KitKat 4.4 or above (CyanogenMod or other nonstandard Android OS versions are not supported). It is also not compatible with the following devices.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="28"></a>SE_SRS-28</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>1. &nbsp; &nbsp; Wiko Rainbow</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="29"></a>SE_SRS-29</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>2. &nbsp; &nbsp; Samsung Galaxy Ace 3</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="30"></a>SE_SRS-30</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>3. &nbsp; &nbsp; Samsung Galaxy Express 2</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="31"></a>SE_SRS-31</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>4. &nbsp; &nbsp; Huawei Nova and Nova+</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="32"></a>SE_SRS-32</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>5. &nbsp; &nbsp; Huawei P8 and P8 Lite</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="33"></a>SE_SRS-33</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>6. &nbsp; &nbsp; Huawei G7 and G7 Plus</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="34"></a>SE_SRS-34</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>7. &nbsp; &nbsp; Huawei Mate 7, Mate S, Mate 8, and Mate 9</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="35"></a>SE_SRS-35</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>8. &nbsp; &nbsp; Huawei Honor 4C, Honor 6, Honor 6 Plus, and Honor 7</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="36"></a>SE_SRS-36</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>9. &nbsp; &nbsp; Huawei P9, P9 Plus, and P9 Lit</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="37"></a>SE_SRS-37</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The devices mentioned above are known to experience issues where the OS cuts off the application (Similar to Run!) while recording activities and, in some cases, force-closes it.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="38"></a>SE_SRS-38</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>2.5 User Documentation</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="39"></a>SE_SRS-39</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The user will be provided with an online manual they can refer to anytime. The manual will consist of multiple diagrams and instructions for the ease of understanding. The user may also contact the developers through email which will be provided in the contact us section in the application.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="40"></a>SE_SRS-40</td>
+          <td class="description-col" style="padding-left:10px">
+            <h1>3 External Interface Requirements</h1>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="41"></a>SE_SRS-41</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>3.1 Hardware Interfaces</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="42"></a>SE_SRS-42</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>Following table consists of the minimum hardware requirements to run the application.</p><table class=" cke_show_border"><tbody><tr><td style="width:112.4pt"><p>Operating system</p></td><td style="width:355.55pt"><p>Android 4.4.2, or Android 4.4.4</p></td></tr><tr><td style="width:112.4pt"><p>Processor</p></td><td style="width:355.55pt"><p>Intel Atom® Processor Z2520 1.2 GHz, or faster processor</p></td></tr><tr><td style="width:112.4pt"><p>Storage</p></td><td style="width:355.55pt"><p>Between 850 MB and 1.2 GB, depending on the language version</p></td></tr><tr><td style="width:112.4pt"><p>RAM</p></td><td style="width:355.55pt"><p>Minimum of 512 MB, 1 GB is recommended</p></td></tr><tr><td style="width:112.4pt"><p>Video</p></td><td style="width:355.55pt"><p>1280 x 800 pixels or higher on a 10-inch device</p></td></tr><tr><td style="width:112.4pt"><p>Audio</p></td><td style="width:355.55pt"><p>● &nbsp; &nbsp; &nbsp; Working audio jack or bluetooth</p><p>compatible earphones</p></td></tr><tr><td style="width:112.4pt"><p>Software</p></td><td style="width:355.55pt"><p>PDF viewer</p></td></tr><tr><td style="width:112.4pt"><p>Browser/Internet</p></td><td style="width:355.55pt"><p><br></p><p>● &nbsp; &nbsp; To download and launch Google Play* Store apps within the application, a high-speed Internet connection is recommended.</p></td></tr></tbody></table></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="43"></a>SE_SRS-43</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>Table 2.</strong> Sensor types required.</p><table class=" cke_show_border"><tbody><tr><td style="width:141.0pt"><p>Sensor</p></td><td style="width:59.25pt"><p>Type</p></td><td style="width:182.25pt"><p>Description</p></td><td style="width:85.6pt"><p>Common Uses</p></td></tr><tr><td style="width:141.0pt"><p>TYPE_ACCELEROMETER</p></td><td style="width:59.25pt"><p>Hardware</p></td><td style="width:182.25pt"><p>Measures the acceleration force in m/s2 that is applied to a device on all three physical axes (x, y, and z), including the force of gravity.</p></td><td style="width:85.6pt"><p>Motion detection (shake, tilt, etc.).</p></td></tr><tr><td style="width:141.0pt"><p>TYPE_GRAVITY</p></td><td style="width:59.25pt"><p>Software or Hardware</p></td><td style="width:182.25pt"><p>Measures the force of gravity in m/s2 that is applied to a device on all three physical axes (x, y, z).</p></td><td style="width:85.6pt"><p>Motion detection (shake, tilt, etc.).</p></td></tr><tr><td style="width:141.0pt"><p>TYPE_GYROSCOPE</p></td><td style="width:59.25pt"><p>Hardware</p></td><td style="width:182.25pt"><p>Measures a device's rate of rotation in rad/s around each of the three physical axes (x, y, and z).</p></td><td style="width:85.6pt"><p>Rotation detection (spin, turn, etc.).</p></td></tr><tr><td style="width:141.0pt"><p>TYPE_LINEAR_ACCELERATION</p></td><td style="width:59.25pt"><p>Software or Hardware</p></td><td style="width:182.25pt"><p>Measures the acceleration force in m/s2 that is applied to a device on all three physical axes (x, y, and z), excluding the force of gravity.</p></td><td style="width:85.6pt"><p>Monitoring acceleration along a single axis.</p></td></tr><tr><td style="width:141.0pt"><p>TYPE_MAGNETIC_FIELD</p></td><td style="width:59.25pt"><p>Hardware</p></td><td style="width:182.25pt"><p>Measures the ambient geo-magnetic field for all three physical axes (x, y, z) in μT.</p></td><td style="width:85.6pt"><p>Creating a compass.</p></td></tr><tr><td style="width:141.0pt"><p>TYPE_ORIENTATION</p></td><td style="width:59.25pt"><p>Software</p></td><td style="width:182.25pt"><p>Measures degrees of rotation that a device makes around all three physical axes (x, y, z). As of API level 3 you can obtain the inclination matrix and rotation matrix for a device by using the gravity sensor and the geomagnetic field sensor in conjunction with the <a href="https://developer.android.com/reference/android/hardware/SensorManager.html#getRotationMatrix(float%5B%5D,%20float%5B%5D,%20float%5B%5D,%20float%5B%5D)">getRotationMatrix()</a> method.</p></td><td style="width:85.6pt"><p>Determining device position.</p></td></tr><tr><td style="width:141.0pt"><p>TYPE_ROTATION_VECTOR</p></td><td style="width:59.25pt"><p>Software or Hardware</p></td><td style="width:182.25pt"><p>Measures the orientation of a device by providing the three elements of the device's rotation vector.</p></td><td style="width:85.6pt"><p>Motion detection and rotation detection.</p></td></tr></tbody></table></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="44"></a>SE_SRS-44</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>3.2 Software Interfaces</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="45"></a>SE_SRS-45</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The application will have direct integration with Strava. It will take data from Strava (Real Time data prefered) and run it’s algorithms with the database gained from that.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="46"></a>SE_SRS-46</td>
+          <td class="description-col" style="padding-left:10px">
+            <h1>4 System Features</h1>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="47"></a>SE_SRS-47</td>
+          <td class="description-col" style="padding-left:20px">
+            
+            <div class="htmlContent"><p>The application will have the following features which act as one of the most important services provided.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="48"></a>SE_SRS-48</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>4.1 Providing Audio Cues</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="49"></a>SE_SRS-49</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.1.1 &nbsp; &nbsp; Description and Priority</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="50"></a>SE_SRS-50</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>It will give audio cues having content related to persuade to keep running.These scenarios will be based on certain storylines that would range from calm and peaceful nature trails/hikes all the way to dangerous and adventurous scenarios like zombie apocalypse or chasing sequences.This is one of the highest priority for the user as they will enable the user to perform better</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="51"></a>SE_SRS-51</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.1.2 &nbsp; &nbsp; Stimulus/Response Sequences</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="52"></a>SE_SRS-52</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The storyline depicted through audio will enable the user to put himself/herself in that position and be a part of that imaginary situation. The user will thereby respond by running with an improved pace and hence improving the quality of run</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="53"></a>SE_SRS-53</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.1.3 &nbsp; &nbsp; Functional Requirements</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="54"></a>SE_SRS-54</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The requirements for this feature are stated in the Hardware interface section.The particular requirement for audio cues in any system are stated</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="55"></a>SE_SRS-55</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>○ &nbsp; &nbsp; &nbsp; Working audio jack or bluetooth</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="56"></a>SE_SRS-56</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>○ &nbsp; &nbsp; &nbsp; compatible earphones</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="57"></a>SE_SRS-57</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>4.2 Providing
+Directions</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="58"></a>SE_SRS-58</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.2.1 &nbsp; &nbsp; Description and Priority</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="59"></a>SE_SRS-59</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>This feature will provide paths and directions to the runner. It is recommended that the user will choose the provided path. A route will provided containing no dead ends or side roads.It will be linked to the audio cues.This feature stands second in priority after audio cues.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="60"></a>SE_SRS-60</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.2.2 &nbsp; &nbsp; Stimulus/Response Sequences</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="61"></a>SE_SRS-61</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The recommended route given by the application will enable the user to get an idea as to run towards which path.The user will thereby respond by running towards the targeted path.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="62"></a>SE_SRS-62</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.2.3 &nbsp; &nbsp; Functional Requirements</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="63"></a>SE_SRS-63</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The requirements for this feature are stated in the Hardware interface section.The particular requirement for getting directions in any system are stated</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="64"></a>SE_SRS-64</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>○ &nbsp; &nbsp; &nbsp; GPS navigation systems</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="65"></a>SE_SRS-65</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>○ &nbsp; &nbsp; &nbsp; Sensors stated in section 3.2 Table 2</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="66"></a>SE_SRS-66</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>4.3 Providing
+Music Suggestions</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="67"></a>SE_SRS-67</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.3.1 &nbsp; &nbsp; Description and Priority</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="68"></a>SE_SRS-68</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>This feature will automatically select the next segment based on predicting the steps per minute for the upcoming segment/s. It is recommended that the user will choose this selected playlist.It will be incorporated with the audio cues that are given periodically.This feature is considered as a priority after audio cues and direction providing features respectively.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="69"></a>SE_SRS-69</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.3.2 &nbsp; &nbsp; Stimulus/Response Sequences</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="70"></a>SE_SRS-70</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The track/s will be played between two audio cues.The assumption can be made that exercising to fast tempo music or that appropriately suggested music should produce faster running performance.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="71"></a>SE_SRS-71</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p><strong>4.3.3 &nbsp; &nbsp; Functional Requirements</strong></p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="72"></a>SE_SRS-72</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The requirements for this feature are stated in the Hardware interface section.The particular requirements for this feature include</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="73"></a>SE_SRS-73</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>○ &nbsp; &nbsp; &nbsp; Local songs database access</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="74"></a>SE_SRS-74</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>4.4 Inbuilt
+Pedometer</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="75"></a>SE_SRS-75</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The requirements for this feature are stated in the Hardware interface section.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="76"></a>SE_SRS-76</td>
+          <td class="description-col" style="padding-left:10px">
+            <h1>5 Other Nonfunctional Requirements</h1>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="77"></a>SE_SRS-77</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>5.1 Performance Requirements</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="78"></a>SE_SRS-78</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The UI needs to be as simple as possible. Not too much clutter with large font as the user may want to change settings or his music while on the run. When a run is on going the screen need to have high contrast display and a few basic settings so as to conserve battery life while still providing the user options as per his/her convenience.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="79"></a>SE_SRS-79</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>5.2 Safety Requirements</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="80"></a>SE_SRS-80</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The user expressly agrees that his/her athletic activities (including, but not limited to, walking, running, or following a plan offered by the application ) carry certain inherent and significant risks of property damage, bodily injury or death.The user also must agree that he/she voluntarily assumes all known and unknown risks associated with these activities even if caused in whole or part by the action, inaction or negligence of the application or by the action, inaction or negligence of others.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="81"></a>SE_SRS-81</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>5.3 Security and Privacy Requirements</h2>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="82"></a>SE_SRS-82</td>
+          <td class="description-col" style="padding-left:30px">
+            
+            <div class="htmlContent"><p>The Application collects information about the user, including information that directly or indirectly identifies him/her if you or your other members choose to share it with the Application.The Application also collects information about how the Services are used. There are also several opportunities for the user to share information like:</p><ol><li>Basic account information</li><li>Profile, activity and use.</li><li>Contacts’ information</li><li>Devices and apps you connect to the Application</li><li>Health information like heart rate,etc</li><li>Content shared on the Services</li><li>Location information</li><li>Contact information</li></ol></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="83"></a>SE_SRS-83</td>
+          <td class="description-col" style="padding-left:10px">
+            <h1>6 Other Requirements</h1>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="84"></a>SE_SRS-84</td>
+          <td class="description-col" style="padding-left:20px">
+            
+            <div class="htmlContent"><p>Although not&nbsp;compulsory requirements, some of them are mentioned as following:</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="85"></a>SE_SRS-85</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>6.1 Database</h2>
+            <div class="htmlContent"><p>A database of past runs will be effective with split timings per kilometer which could help the application for music predictions.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="87"></a>SE_SRS-87</td>
+          <td class="description-col" style="padding-left:20px">
+            <h2>6.2 Playlist</h2>
+            <div class="htmlContent"><p>The user's personal playlist will also be of good help.That would serve for the purpose of music prediction and recommendations.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="88"></a>SE_SRS-88</td>
+          <td class="description-col" style="padding-left:10px">
+            <h1>7 Conclusion</h1>
+            <div class="htmlContent"></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+        <tr>
+          <td class="id-col"><a id="1"></a>SE_SRS-1</td>
+          <td class="description-col" style="padding-left:10px">
+            
+            <div class="htmlContent"><p>In this project, the aim is to develop an application that will motivate the runners to perform better.Android platform is used to implement this application.Every person nowadays has android cell phone hence the reason.The application aims to induce some beneficial physical activity motivation(here, running) accompanied with audio cues, music suggestions and directions in the expanding sedentary life of young people.</p></div>
+          </td>
+          <td class="discussion-col">
+          </td>
+          <td class="links-col">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="footer">
+      <hr>
+      <div class="pull-right"><em>Last modified by <a href="mailto://dkudale07@gmail.com">Dhruv Kudale, </a> on 2018-11-12 00:12</em></div>
+    </div>
+  </div>
+</body>
